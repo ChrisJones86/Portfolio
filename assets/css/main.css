@@ -4688,3 +4688,27 @@ input, select, textarea {
 		}
 
 	}
+
+	.grid-container {
+		gap: 5px;
+		justify-content: center;
+		height: 1200px;
+		width: 600px;
+		display: inline-grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	.grid-item {
+		height: 300px;
+		width: 300px;
+	}
+
+	#certs img {
+		height: 300px;
+		width: 300px;
+	}
+
+	#certs img:hover {
+		transform: scale(2, 2);
+	}
